@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def collatz():
     print('Please enter an integer greater than 1 for collatz sequence')
     number = int(input())

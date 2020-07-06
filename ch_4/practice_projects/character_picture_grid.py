@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def print_picture_grid(grid):
     row_length = len(grid[0])
     column_length = len(grid)
