@@ -14,7 +14,7 @@ ss = ezsheets.Spreadsheet(google_sheet)
 sheet = ss[0]
 
 # Get list of data for first row (headers)
-header_row =  sheet.getRows()[0]
+header_row = sheet.getRows()[0]
 
 # Look for email address header, column index for sheets starts at index 1.
 for count, header in enumerate(header_row, 1):
