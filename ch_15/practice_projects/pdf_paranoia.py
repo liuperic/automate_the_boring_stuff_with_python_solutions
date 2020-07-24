@@ -11,9 +11,6 @@ pwd = sys.argv[1]
 
 file_path = input('Please provide file path to the directory where PDF files will be encrypted: ')
 
-# # Ask user if they would like to delete old pdf
-# response = pyip.inputYesNo('Would you like to delete the unencrypted PDF files after they have been encrypted? (yes/no): ')
-
 # Encrypts all PDFs with a password provided at command line.
 for foldername, subfolders, filenames in os.walk(file_path):
     for filename in filenames:
